@@ -4,7 +4,7 @@
 #include <stdbool.h>
 // fflush(stdin) -- clears the buffer - just something for me to remeber.
 double numb1, numb2;
-char operator, playAgain, helping, starting;
+char operator, playAgain, helping, command;
 bool playing, premier;
 void multi(double num1, double num2);
 void divs(double num1, double num2);
@@ -26,10 +26,10 @@ int main(void){
 				premier = false;
 		}
 		scanf(" %c", &starting);
-			if(starting == 's'){
+			if(command == 's'){
 				start();
 			} 
-			else if(starting == 'h'){
+			else if(command == 'h'){
 				help();
 			}
 	}
