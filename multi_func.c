@@ -25,7 +25,7 @@ int main(void){
 				} 
 				premier = false;
 		}
-		scanf(" %c", &starting);
+		scanf(" %c", &command);
 			if(command == 's'){
 				start();
 			} 
