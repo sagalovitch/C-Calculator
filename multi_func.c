@@ -1,4 +1,4 @@
-/* multi_func.c -- simple calculator, someone fucked this code up, no longer works*/
+/* multi_func.c -- simple calculator using two integers*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
